@@ -20,19 +20,23 @@ Languages Featured: HTML, CSS, JS
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
 ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+Items Needed: 
+- name 
+- recent photo or avatar
+- links to sections about them
+- examples of thier work
+- how to contact them
+
+- nav: the ui needs to go to the corresoponding piece
+- examples of work: need to have titled images
+  - the first app: needs to be larger then the other sections
+-
+
+- the images need to send the person to that applicated that is also deployed. (first HW maybe?)
+
+- the page needs to be able to handle resizing of the window
+- the page needs to be able to layed out in tablet, phone, and PC views
+
 ```
 
 
@@ -62,5 +66,5 @@ The following animation shows the web application's appearance and functionality
 
 ## Links
 
-> * Repo: [THE URL]
+> * Repo: (https://github.com/NovaLanceBrittany/HW-02-Portfolio-)
 > * GitHub Deplyment: [The URL]
