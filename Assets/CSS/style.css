@@ -1,10 +1,10 @@
 /* color scheme sourced from https://coolors.co/ */
 :root {
-  --fairy-tale: #FECEE9;
+  --smoky-black: #070600;
   --plum: #EB9FEF;
   --ultra-violet: #545677;
   --aquamarine: #47E5BC;
-  --tiffany-blue: #81E4DA;
+  --celestial-blue: #279AF1;
 }
 
 ::selection {
@@ -21,4 +21,77 @@ body {
   line-height: 150%;
   color: var(--aquamarine);
   background-color: var(--ultra-violet);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 400px;
+  margin: 0;
+  background-image: url(../Images/Digital-Box-unsplash.jpg);
+  background-position: 0 700px;
+}
+
+
+.profil-pic {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nav {
+  display: flex;
+  margin-right: 500px;
+}
+
+
+.belphamon-img {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+
+}
+
+
+.about-me {
+  display: flex;
+  border: inset;
+    border-top-color: aquamarine;
+    border-bottom-color: var(--celestial-blue);
+    border-left-color: aquamarine;
+    border-right-color: var(--celestial-blue);
+}
+
+
+
+.my-projects-info-block {
+  display: flex;
+  border: inset;
+    border-top-color: aquamarine;
+    border-bottom-color: var(--celestial-blue);
+    border-left-color: aquamarine;
+    border-right-color: var(--celestial-blue);
+  
+}
+
+
+
+
+
+footer.contact-me {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+
+
 }
