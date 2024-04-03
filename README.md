@@ -11,7 +11,7 @@ I am excited to show you my ideas and if you have any feedback please feel free 
 ## Tech Stack
 
 ```
-Languages Featured: HTML, CSS, JS
+Languages Featured: HTML & CSS
 ```
 
 
@@ -65,4 +65,4 @@ The following animation shows the web application's appearance:
 ## Links
 
 > * Repo: (https://github.com/NovaLanceBrittany/HW-02-Portfolio-)
-> * GitHub Deplyment: [The URL]
+> * GitHub Deplyment: (https://novalancebrittany.github.io/HW-02-Portfolio-/)
