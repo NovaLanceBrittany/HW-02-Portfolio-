@@ -42,11 +42,9 @@ Items Needed:
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following animation shows the web application's appearance:
 
-(PUT A GIF HERE DUMMY)
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![landing-page](./Assets/Images/landing-page.png)
 
 
 ## Other Devs & Teammates:

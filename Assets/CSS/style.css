@@ -54,6 +54,12 @@ header {
 
 }
 
+h2 {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+
+}
 
 .about-me {
   display: flex;
@@ -66,21 +72,62 @@ header {
 
 
 
-.my-projects-info-block {
+.column-box {
   display: flex;
+  flex-direction: row;
+  z-index: 1;
   border: inset;
     border-top-color: aquamarine;
     border-bottom-color: var(--celestial-blue);
     border-left-color: aquamarine;
     border-right-color: var(--celestial-blue);
-  
+  .linear-gradient-background {
+    background-image: linear-gradient(
+       #a838ac00 100%
+      var(--smoky-black) 0%)};
+}
+
+
+.gen-code-img {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  z-index: -1;
+
+}
+
+.gunpla-img {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+}
+
+.rps-img {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+}
+
+.tile-body {
+  display: block;
+  float: left;
+  width: 31%;
+  height: 200px;
+  margin: 1%;
+  border-radius: 8px;
+}
+
+.link {
+  font-size: 30px;
 }
 
 
 
 
-
-footer.contact-me {
+.My-Contact-Info {
   margin: 1.5rem;
   text-align: center;
 }
